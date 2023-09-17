@@ -9,10 +9,10 @@
     <link href="assets/css/style.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Jost" rel="stylesheet">
   </head>
-  <body id="main">
+  <body>
     <header>
         <nav>
-            <div class="wrapper-nav">
+            <div class="wrapper-nav no-phone">
                 <a href="index.html" class="nav-logo"><img class="logo" src="assets/images/logo_csm.png" alt="Logo"></a>
                 <a href="explore.html" class="nav-item nav-item-1">Explore</a>
                 <a href="exhibition.html" class="nav-item nav-item-2">Exhibition</a>
@@ -21,6 +21,28 @@
                 <a href="getinvolved.html" class="nav-item nav-item-5">Get involved</a>
                 <div class="line"></div>
             </div>
+            <div class="only-phone">
+              <nav class="navigation">
+                  <div class="navigation-logo">
+                      <a href="index.html" class="nav-logo"><img class="logo" src="assets/images/logo_csm.png" alt="Logo"></a>
+                  </div>
+                  <div class="navigation-wrapper">
+                    <input type="checkbox" id="hamburger-menu" class="hamburger-menu">
+                    <label for="hamburger-menu" class="navigation-button">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </label>
+                    <ul class="navigation-links b-orange">
+                      <li><a href="explore.html">Explore</a></li>
+                      <li><a href="exhibition.html">Exhibition</a></li>
+                      <li><a href="events.html">Events</a></li>
+                      <li><a href="visit.html">Visit</a></li>
+                      <li><a href="getinvolved.html">Get involved</a></li>
+                    </ul>
+                  </div>
+              </nav> 
+          </div>
         </nav>
     </header>
     <main>
