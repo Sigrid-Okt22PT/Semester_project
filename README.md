@@ -3,6 +3,8 @@
 
 The Community Science Museum is dedicated to making science accessible to all. This repository contains the HTML and CSS files that power the museum's website.
 
+## Demo
+View a live demo https://semesterproject-sigrid.netlify.app/
 
 ## Description
 “Community Science Museum”. Its core target audience is primary and middle school children (ages 7-15) and families with young children. 
